@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    tools:context=".login">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FAF8F8"
+        android:contentDescription="@string/todo"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/basura" />
+
+    <EditText
+        android:id="@+id/editUsuario"
+        android:layout_width="299dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/style_border_plaintext"
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:inputType="textPersonName"
+        android:topLeftRadius="15dp"
+        android:topRightRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:background="@drawable/style_border_plaintext"
+        android:ems="10"
+        android:hint="@string/contrasena"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editUsuario" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="299dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="37dp"
+        android:text="@string/btningresar"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#5B18D3"
+        app:backgroundTint="#671FE8"
+        app:layout_constraintBottom_toTopOf="@+id/btnGmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnGmail"
+        android:layout_width="162dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00FFFFFF"
+        android:text="@string/gmail"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegistrarse"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/txtRegistrarse"
+        android:layout_width="264dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00FFFFFF"
+        android:text="@string/registrarse"
+        android:textColor="#595555"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="162dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00FFFFFF"
+        android:text="@string/facebook"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegistrarse"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

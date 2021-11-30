@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">desperdicioAlimentos</string>
+
+    <string name="todo">TODO</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="gmail">GMAIL</string>
+    <string name="direccion">Dirección</string>
+    <string name="btningresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="nombre">Nombre</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="celular">Celular</string>
+    <string name="correo">Correo</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="spiner">Sexo</string>
+    <string name="apellido">Apellido</string>
+    <string name="password">Password</string>
+    <string name="foto">TOMAR FOTO</string>
+
+
+</resources>
