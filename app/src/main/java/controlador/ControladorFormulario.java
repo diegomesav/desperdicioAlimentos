@@ -28,7 +28,7 @@ public class ControladorFormulario implements FormularioInterfaz.Controlador {
             view.validarResultadoFormulario("apellido", "Los campos no pueden estar vacíos");
             return false;
         } else if (formularioDTO.getSpSexo().toString().trim().equalsIgnoreCase("SELECCIONE EL SEXO")) {
-            view.validarResultadoFormulario("sexo", "Seleccione el sexo");
+            view.validarResultadoFormulario("sexo", "Seleccione ");
             return false;
         } else if (formularioDTO.getEditDireccion().toString().trim().isEmpty()) {
             view.validarResultadoFormulario("direccion", "Los campos no pueden estar vacíos");
